@@ -1,0 +1,48 @@
+body{
+    background: rgba(251, 246, 252, 0.791);
+
+}
+.feedback_box{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.box_feedback{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box_feedback label{
+    width: 100%;
+    text-align: center;
+}
+.box_feedback input{
+    width: 100%;
+    text-align: center;
+}
+#contact-form{
+    width: 400px;
+    height: 650px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    padding-top: 30px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    background: rgb(224, 103, 103);
+    border-radius: 10px;
+}
+nav{
+    margin-top: 26px;
+}

@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Sono', monospace;
+
+}
+
+.main_shop{
+	width: 100vw;
+	height: 100vh;
+	background: white;
+	flex-wrap: wrap;
+
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 30px;
+	/* align-items: center; */
+}
+.inventory{
+    width: 42%;
+    /* height: 40%; */
+    border: 1px silver solid;
+    display: flex;
+    justify-content: center;
+    /* align-content: space-around; */
+    flex-wrap: wrap;
+    padding: 10px;
+    background: radial-gradient( rgba(238, 174, 202, 0.41) 0%, rgba(171, 148, 233, 0.502) 100%);
+    border-radius: 15px;
+}
+.shop{
+    width: 42%;
+    /* height: 100vh; */
+    border: 1px silver solid;
+    display: flex;
+    justify-content: center;
+    /* align-content: space-around; */
+    padding: 10px;
+    background: radial-gradient( rgba(238, 174, 202, 0.41) 0%, rgba(171, 148, 233, 0.502) 100%);
+
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+.shop_headline{
+    width: 100%;
+    text-align: center;
+}
+.characters{
+    width: 90%;
+    /* height: 350px; */
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box_box{
+    width: 100%;
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.character_item{
+    width: 24%;
+    height: 200px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+.character_title{
+    width: 100%;
+    text-align: center;
+}
+.character_img{
+    width: 90%;
+    height: 60%;
+}
+.backgrounds{
+    width: 90%;
+    /* height: 350px; */
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.subtitle{
+    width: 100%;
+    padding: 10px;
+}
+.bg_item{
+    width: 24%;
+    height: 200px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+.bg_title{
+    width: 100%;
+    text-align: center;
+}
+.bg_img{
+    width: 90%;
+    height: 60%;
+}
+.character_price_img{
+    width: 22px;
+    height: 22px;
+}
+.character_merch{
+    width: 24%;
+    height: 200px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.character_price_box{
+    width: 60%;
+    height: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.characters_buy{
+    width: 90%;
+    /* height: 100vh; */
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.backgrounds_buy{
+    width: 90%;
+    /* height: 450px; */
+    display: flex;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: 20px;
+    flex-wrap: wrap;
+}
+.bg_price_img{
+    width: 22px;
+    height: 22px;
+}
+.bg_merch{
+    width: 24%;
+    height: 200px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 20px;
+}
+.bg_price_box{
+    width: 60%;
+    height: 25px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+}
+button{
+    width: 80px;
+}
+.active_character{
+    background: rgb(158, 231, 158);
+}
+.active_bg{
+    background: rgb(158, 231, 158);
+}

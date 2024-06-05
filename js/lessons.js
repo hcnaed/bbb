@@ -1,0 +1,96 @@
+$('#lesson1').click(function(){
+    localStorage.setItem('lesson',1)
+    location.href="index.html"
+})
+$('#lesson2').click(function(){
+    localStorage.setItem('lesson',2)
+    location.href="index.html"
+})
+$('#lesson3').click(function(){
+    localStorage.setItem('lesson',3)
+    location.href="index.html"
+})
+$('#lesson4').click(function(){
+    localStorage.setItem('lesson',4)
+    location.href="index.html"
+})
+$('#lesson5').click(function(){
+    localStorage.setItem('lesson',5)
+    location.href="index.html"
+})
+$('#lesson6').click(function(){
+    localStorage.setItem('lesson',6)
+    location.href="index.html"
+})
+$('#lesson7').click(function(){
+    localStorage.setItem('lesson',7)
+    location.href="index.html"
+})
+$('#lesson8').click(function(){
+    localStorage.setItem('lesson',8)
+    location.href="index.html"
+})
+$('#lesson9').click(function(){
+    localStorage.setItem('lesson',9)
+    location.href="index.html"
+})
+$('#lesson10').click(function(){
+    localStorage.setItem('lesson',10)
+    location.href="index.html"
+})
+$('#lesson11').click(function(){
+    localStorage.setItem('lesson',11)
+    location.href="index.html"
+})
+$('#lesson12').click(function(){
+    localStorage.setItem('lesson',12)
+    location.href="index.html"
+})
+$('#lesson13').click(function(){
+    localStorage.setItem('lesson',13)
+    location.href="index.html"
+})
+$('#lesson14').click(function(){
+    localStorage.setItem('lesson',14)
+    location.href="index.html"
+})
+$('#lesson15').click(function(){
+    localStorage.setItem('lesson',15)
+    location.href="index.html"
+})
+$('#lesson16').click(function(){
+    localStorage.setItem('lesson',16)
+    location.href="index.html"
+})
+$('#lesson17').click(function(){
+    localStorage.setItem('lesson',17)
+    location.href="index.html"
+})
+$('#lesson18').click(function(){
+    localStorage.setItem('lesson',18)
+    location.href="index.html"
+})
+$('#lesson19').click(function(){
+    localStorage.setItem('lesson',19)
+    location.href="index.html"
+})
+$('#lesson20').click(function(){
+    localStorage.setItem('lesson',20)
+    location.href="index.html"
+})
+$('#lesson21').click(function(){
+    localStorage.setItem('lesson',21)
+    location.href="index.html"
+})
+$('#lesson22').click(function(){
+    localStorage.setItem('lesson',22)
+    location.href="index.html"
+})
+$('#lesson23').click(function(){
+    localStorage.setItem('lesson',23)
+    location.href="index.html"
+})
+$('#lesson24').click(function(){
+    localStorage.setItem('lesson',24)
+    location.href="index.html"
+})
